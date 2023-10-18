@@ -22,10 +22,3 @@ ggplot(data = data,
   geom_bar(stat = "identity")
 
 
-# add color
-
-ggplot(data = data,
-       mapping = aes(x = name,
-                     y = mass,
-                     fill = INCTCFLG_A)) +
-  geom_col()
